@@ -14,9 +14,6 @@ public class Solution {
         long resultMin = 0;
         long resultMax = 0;
         Arrays.sort(arr);
-        for (int i : arr) {
-            System.out.println(i);
-        }
         for (int i = 0; i < arr.length - 1; i++) {
             resultMin += arr[i];
         }
